@@ -15,7 +15,7 @@ export function Cart() {
             style={{ fontWeight: 500, color: "#171A1D", fontSize: "14px" }}
           >
             <span style={{ color: "#860920" }}>Cart</span>
-            <img src="./img/arrow_icn_small.svg" alt="" />
+            <img src="/img/arrow_icn_small.svg" alt="" />
             <span>Shipping</span>
             <img src="./img/arrow_icn_small.svg" alt="" />
             <span>Payment</span>
@@ -69,7 +69,7 @@ export function Cart() {
           <div>
             <div className="cartItems">
               <div className="cartItems-img">
-                <img src="./public/img/item1.png" alt="" />
+                <img src="./img/item1.png" alt="" />
               </div>
               <div className="cartItems-info">
                 <div className="item-name">
@@ -116,7 +116,7 @@ export function Cart() {
             </div>
             <div className="cartItems">
               <div className="cartItems-img">
-                <img src="./public/img/item2.png" alt="" />
+                <img src="./img/item2.png" alt="" />
               </div>
               <div className="cartItems-info">
                 <div className="item-name">
