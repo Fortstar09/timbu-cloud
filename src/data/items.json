@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Earthy Brown",
+    "price": 40,
+    "descrip":"Stylish brown sneakers with a rustic feel, for a sophisticated look.",
+    "imgUrl": "/items/item1.png"
+  },
+
+  {
+    "id": 2,
+    "name": "White & beige",
+    "price": 20,
+    "descrip":"Comfortable beige & white with a giving you an effortless style.",
+    "imgUrl": "/items/item2.png"
+  },
+
+  {
+    "id": 3,
+    "name": "Classic Runners",
+    "price": 30,
+    "descrip":"Timeless sneakers comfortable fit, ideal for everyday wear.",
+    "imgUrl": "/items/item3.png"
+  },
+
+  {
+    "id": 4,
+    "name": "White sneakers",
+    "price": 50,
+    "descrip":"Elegant white sneakers with minimalist aesthetic.",
+    "imgUrl": "/items/item4.png"
+  },
+
+  {
+    "id": 5,
+    "name": "Black & Beige",
+    "price": 25,
+    "descrip":"Trendy black sneakers with beige accents, ideal for street fashion.",
+    "imgUrl": "/items/item5.png"
+  },
+  {
+    "id": 6,
+    "name": "Urban Kicks",
+    "price": 100,
+    "descrip":"Urban sneakers, a bold urban look, ideal for streetwear enthusiasts",
+    "imgUrl": "/items/item6.png"
+  },
+  {
+    "id": 7,
+    "name": "Bold Red",
+    "price": 60,
+    "descrip":"Vibrant red lines perfect for adding a pop of color to your outfit",
+    "imgUrl": "/items/item7.png"
+  },
+  {
+    "id": 8,
+    "name": "Classic Retro",
+    "price": 40,
+    "descrip":"Retro sneakers, a mix of white, black, and red, with a vintage vibe",
+    "imgUrl": "/items/item8.png"
+  },
+  {
+    "id": 9,
+    "name": "Vintage Red Denim",
+    "price": 30,
+    "descrip":"Red lined sneakers with a vintage feel, perfect for everyday style.",
+    "imgUrl": "/items/item9.png"
+  },
+  {
+    "id": 10,
+    "name": "Khaki Green",
+    "price": 40,
+    "descrip":"khaki green sneakers with a relaxed design, for everyday wear.",
+    "imgUrl": "/items/item10.png"
+  },
+  {
+    "id": 11,
+    "name": "Sleek green",
+    "price": 60,
+    "descrip":"Elegant suede sneakers, perfect for polished casual outfit",
+    "imgUrl": "/items/item11.png"
+  },
+  {
+    "id": 12,
+    "name": "Retro kicks",
+    "price": 75,
+    "descrip":"Sporty sneakers with a retro vibe and eye catching red detailing",
+    "imgUrl": "/items/item12.png"
+  }
+]

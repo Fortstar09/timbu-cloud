@@ -1,0 +1,141 @@
+.order-item-container{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        gap: 50px;
+}
+
+.customer-info h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.customer-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 20px;
+}
+
+.shipping-form{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.address{
+    width: 561px !important;
+}
+
+.customer-input p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #171A1D;
+    margin-bottom: 5px;
+}
+.country{
+    position: relative;
+}
+
+.country input{
+    padding-left: 50px !important;
+}
+
+.country img{
+    position: absolute;
+    top: 57%;
+    left: 4%;
+}
+
+.customer-input input{
+    border: 1px solid #AEAFB0;
+    width: 400px;
+    padding: 10px;
+}
+
+.shipping-form input{
+    width: 276px;
+}
+
+.flex-input1{
+    display: flex;
+    gap: 10px;
+}
+
+.flex-input2{
+    display: flex;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 650px){
+
+    .order-item-container{
+        gap:10px;
+        flex-direction: column-reverse;
+    }
+
+    .order-summary{
+        height: 281px;
+        
+    }
+
+    .order-summary-item, .order-dis-btn{
+        display: block !important;
+    }
+
+    
+
+    .customer-form{
+        grid-template-columns: 1fr;
+    }
+    .customer-input input{
+        width: 336px;
+    }
+
+    .flex-input1, .flex-input2{
+        flex-direction: column;
+    }
+    .shipping-form input{
+        width: 100%;
+    }
+
+    .customer-input input, .address, .order-dis-btn{
+        width: 485px !important;
+    }
+
+}
+
+@media screen and (max-width: 565px){
+    .country input{
+        padding-left: 40px;
+    }
+    .customer-input input, .address, .order-dis-btn{
+        width: 485px !important;
+    }
+}
+
+@media screen and (max-width: 565px){
+    .customer-input input, .address, .order-dis-btn{
+        width: 438px !important;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .customer-input input, .address, .order-dis-btn{
+        width: 315px !important;
+    }
+}
+
+@media screen and (max-width: 389px){
+    
+    .customer-input input, .address, .order-dis-btn{
+        width: 270px !important;
+    }
+}

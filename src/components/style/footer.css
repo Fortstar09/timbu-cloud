@@ -1,0 +1,176 @@
+.footer-sub {
+    padding: 24px 50px;
+    background-color: #363636;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-sub p {
+    width: 278px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #F2F3F3;
+    letter-spacing: 0.32px;
+}
+
+.footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer-form img {
+    position: absolute;
+    top: 28%;
+    left: 3%;
+}
+
+.footer-form input {
+    border: 1px solid #fff;
+    width: 333px;
+    padding: 12px 46px;
+}
+
+.footer-form a {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--white);
+    gap: 4px;
+    padding: 13.5px 10px;
+}
+
+.footer-links {
+    background-color: #1B1B1B;
+    padding: 24px 111px 60px 111px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-about {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-about img {
+    width: 82px;
+    height: 50px;
+
+}
+
+.footer-about p {
+    color: #F2F3F3;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 366px;
+    height: 96px;
+    margin-bottom: 5px;
+}
+
+.socials {
+    display: flex;
+    gap: 24px;
+}
+
+
+.socials img {
+    width: 24px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-contact .footer-bold {
+    color: #F2F3F3;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.footer-contact p {
+    color: #A6A7A9;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.term {
+    display: flex;
+    padding: 24px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    background-color: #1B1B1B;
+}
+
+.term p {
+    color: #F2F3F3;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .footer-links {
+        padding: 24px 30px 60px 30px;
+        display: flex;
+    }
+
+    .footer-about p {
+        width: 209px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    .footer-sub {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 14px;
+        gap: 7px;
+    }
+
+
+    .footer-sub p {
+        font-size: 14px;
+        text-align: center;
+        width: 250px;
+        margin-bottom: 3px;
+    }
+
+    .footer-form input {
+        width: 258px;
+        padding: 12px 14px 12px 40px;
+    }
+    .footer-links{
+        flex-direction: column;
+        column-gap: 24px;
+    }
+
+    .footer-about{
+    margin-bottom: 24px;
+    }
+
+    .footer-contact{
+        margin-bottom: 24px;
+    }
+    .term{
+        gap: 20px;
+    }
+    .term p{
+        font-size: 10px;
+    }
+}
