@@ -132,18 +132,20 @@ input {
 }
 
 .cart-tag {
+    width: 20px;
+    height: 20px;
     position: absolute;
     display: inline-block;
     color: var(--pure-white);
     text-align: center;
-    bottom: 65%;
+    bottom: 60%;
     right: 38%;
     border-radius: 100%;
     background-color: var(--primary-color);
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 21px;
-    padding: 0px 8px;
+    /* padding: 0px 8px; */
 }
 
 .cart img {
